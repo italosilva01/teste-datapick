@@ -4,7 +4,7 @@ import { CalendarDate } from "@internationalized/date";
 import { I18nProvider } from "@react-aria/i18n";
 
 export default function Home() {
-  const handleDateChange = (date) => {
+  const handleDateChange = (date: any) => {
     console.log(date);
   };
   return (
